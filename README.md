@@ -2,88 +2,160 @@
 
 Premium Skincare for Radiant Skin
 
-Welcome to SilkAura! Discover premium skincare products crafted with love. Nourish, protect, and reveal your natural radiance with SilkAura Beauty.
+---
+
+<p align="center">
+  <img alt="SilkAura Logo" src="./public/placeholder.svg" height="100" />
+</p>
 
 ---
 
-## 🌸 Features
-- Modern, responsive React web app
-- Beautiful UI with Tailwind CSS and shadcn/ui components
-- Product listing, cart, wish list, and checkout
-- FAQ, contact, shipping, and returns pages
+## 🌟 Overview
+
+SilkAura Beauty is a premium skincare shop built using modern web technologies, offering a seamless online shopping experience for skincare lovers. Shop products, manage your cart and wishlist, and quickly find answers to common questions—all on a beautifully designed, responsive site.
 
 ---
 
-## 🚀 Tech Stack
-- **React** (with Vite)
-- **TypeScript**
-- **Tailwind CSS**
-- **shadcn/ui** (Radix UI based)
+## 📚 Table of Contents
+
+- [Features](#features)
+- [Demo](#demo)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [Main Scripts](#main-scripts)
+- [Contributing](#contributing)
+- [Contact & Author](#contact--author)
 
 ---
 
-## 💻 Getting Started
+## ✨ Features
+- Responsive, modern UI built with React, TypeScript, and Tailwind CSS
+- Beautiful shadcn/ui components (Radix UI base)
+- Product listing, details, add-to-cart, wishlist, and checkout flow
+- Informational pages (FAQ, Contact, Shipping, Returns)
+- Accessible design and fast, optimized performance
 
-Clone the repo and install the dependencies:
+---
 
-```sh
-git clone <YOUR_REPO_URL>
-cd silkaura
-npm install
-```
+## 🚀 Demo
 
-Start the development server:
+Once running locally, access: [http://localhost:8080](http://localhost:8080)
 
-```sh
-npm run dev
-```
+---
 
-Visit [http://localhost:8080](http://localhost:8080) to view the app.
+## 🛠 Tech Stack
+- **Vite** — Next-gen frontend tooling
+- **React** — Component-driven UI
+- **TypeScript** — Static typing for maintainability
+- **Tailwind CSS** — Utility-first styling
+- **shadcn/ui** — Component library (with Radix UI)
+- **Zustand** — Simple state management
 
+---
+
+## 🏁 Getting Started
+
+1. **Clone the repository**
+    ```sh
+    git clone <YOUR_REPO_URL>
+    cd silkaura
+    ```
+
+2. **Install dependencies**
+    ```sh
+    npm install
+    ```
+
+3. **Run the development server**
+    ```sh
+    npm run dev
+    ```
+
+4. **Open in your browser**
+    - Local: http://localhost:8080
+    - Network: http://192.168.1.12:8080
+
+5. **Build for production**
+    ```sh
+    npm run build
+    ```
 ---
 
 ## 📂 Project Structure
 
 ```
 silkaura/
-├── public/               # Static assets (favicon, SVGs)
+├── public/                 # Static assets (favicon, logos, placeholder images)
 ├── src/
-│   ├── assets/           # Images, product assets
-│   ├── components/       # Reusable UI components
-│   │   └── ui/           # shadcn/ui components
-│   ├── hooks/            # Custom React hooks
-│   ├── lib/              # Utility libraries and store
-│   ├── pages/            # Main application pages (Cart, Products, etc.)
-│   ├── App.tsx           # Main app container
-│   └── main.tsx          # App entry point
-├── index.html            # HTML template
-├── tailwind.config.ts    # Tailwind CSS config
-├── vite.config.ts        # Vite config
-└── package.json          # Project metadata & dependencies
+│   ├── assets/             # Product and hero images
+│   ├── components/         # App-specific and UI component modules
+│   │   └── ui/             # shadcn/ui components
+│   ├── hooks/              # Custom React hooks
+│   ├── lib/                # Utilities, global store
+│   ├── pages/              # Major routes/pages (Cart, Products, FAQ, etc.)
+│   ├── App.tsx             # Main app wrapper
+│   └── main.tsx            # Entry point
+├── index.html              # HTML template
+├── tailwind.config.ts      # Tailwind setup
+├── vite.config.ts          # Vite bundler config
+└── package.json            # Project metadata
 ```
+
+### 🧭 Navigation
+- **Home Page**: `/` — Landing, hero, featured products
+- **Products**: `/products` — All products listing
+- **Product Detail**: `/products/:id` — Details and buy/add/wishlist
+- **Cart**: `/cart` — Manage items for purchase
+- **Wishlist**: `/wishlist` — Saved for later
+- **Checkout**: `/checkout` — Order summary & payment
+- **FAQ**: `/faq` — Common questions
+- **Contact**: `/contact` — Get in touch
+- **Shipping**: `/shipping` — Shipping information
+- **Returns**: `/returns` — Return/refund policy
+- **404**: `/notfound` — Not found error page
 
 ---
 
 ## 📝 Main Scripts
 
 - `npm run dev` — Start development server
-- `npm run build` — Build app for production
-- `npm run preview` — Preview production build
-- `npm run lint` — Lint codebase
+- `npm run build` — Build and optimize application
+- `npm run preview` — Preview final build locally
+- `npm run lint` — Run linter for code checks
 
 ---
 
-## 📧 Contribution Guide
+## 🤝 Contributing
 
-1. Fork this repo and clone your fork.
-2. Create a new branch for your feature or fix:
+1. **Fork** the repo and **clone** your fork:
    ```sh
-   git checkout -b feature/your-feature-name
+   git clone https://github.com/YOUR-USERNAME/silkaura.git
    ```
-3. Commit your changes and push.
-4. Open a pull request to the `main` branch of the original repo.
+2. **Create a branch** for your feature or fix:
+   ```sh
+   git checkout -b feature/your-feature
+   ```
+3. **Make your changes** and **commit**:
+   ```sh
+   git add . && git commit -m "Add new feature"
+   ```
+4. **Push** your branch:
+   ```sh
+   git push origin feature/your-feature
+   ```
+5. Open a Pull Request to the `main` branch on GitHub.
 
 ---
 
-## 📞 Contact
-For questions and support, please contact the SilkAura team!
+## 📬 Contact & Author
+
+**Tayab Malik**  
+✉️ tayabghafor@gmail.com  
+[LinkedIn](https://www.linkedin.com/in/tayabmalik)
+
+Feel free to reach out for questions, suggestions, or collaboration.
+
+---
+
+<p align="center"><em>Made with ❤️ by SilkAura Beauty & Tayab Malik</em></p>
